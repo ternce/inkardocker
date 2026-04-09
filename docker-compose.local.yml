@@ -24,7 +24,7 @@ services:
       ENVIRONMENT: ${ENVIRONMENT:-dev}
       PORT: 8000
       FRONTEND_DIST: /app/front/dist
-      DATABASE_URL: ${DATABASE_URL:-postgresql://${POSTGRES_USER:-inkar}:${POSTGRES_PASSWORD:-inkar}@db:5432/${POSTGRES_DB:-inkar_opt}}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-inkar}:${POSTGRES_PASSWORD:-inkar}@db:5432/${POSTGRES_DB:-inkar_opt}
       PHCENTER_BASE_URL: ${PHCENTER_BASE_URL:-https://ph.center}
       PROVISOR_BASE_URL: ${PROVISOR_BASE_URL:-https://api.provisor.kz}
       # Если нужно дергать API с другого домена/порта, настрой CORS_ALLOW_ORIGINS.

@@ -1,6 +1,6 @@
 [submodule "front"]
 	path = front
-	url = https://github.com/ternce/inkar-opt-front.git
+	url = git@github.com:ternce/inkar-opt-front.git
 [submodule "backend"]
 	path = backend
-	url = https://github.com/ternce/inkar-opt-backend.git
+	url = git@github.com:ternce/inkar-opt-backend.git
